@@ -408,7 +408,7 @@ h1.quiz__newsweek-card-title-text,
     content: "";
     width: 489px;
     height: 505px;
-    background: url(/img/about.png) center center / cover no-repeat;
+    background: url(./img/about.png) center center / cover no-repeat;
 }
 
 .quiz__about-background {
@@ -513,38 +513,38 @@ button.quiz__background-btn:hover {
 
 /* Telegram */
 .social__item--tg .social__link {
-    background: url(/img/telegram.png);
+    background: url(./img/telegram.png);
 }
 
 .social__item--tg .social__link:hover {
-    background: url(/img/telegram-hover.png);
+    background: url(./img/telegram-hover.png);
 }
 
 /* VK */
 .social__item--vk .social__link {
-    background: url(/img/vk.png);
+    background: url(./img/vk.png);
 }
 
 .social__item--vk .social__link:hover {
-    background: url(/img/vk-hover.png);
+    background: url(./img/vk-hover.png);
 }
 
 /* Facebook */
 .social__item--fb .social__link {
-    background: url(/img/f.png);
+    background: url(./img/f.png);
 }
 
 .social__item--fb .social__link:hover {
-    background: url(/img/f-hover.png);
+    background: url(./img/f-hover.png);
 }
 
 /* Instagram */
 .social__item--in .social__link {
-    background: url(/img/in.png);
+    background: url(./img/in.png);
 }
 
 .social__item--in .social__link:hover {
-    background: url(/img/in-hover.png);
+    background: url(./img/in-hover.png);
 }
 
 .container-footer {
