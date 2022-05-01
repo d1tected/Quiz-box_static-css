@@ -1,0 +1,595 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 1.42;
+    background: #17191C ;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    --header-height: 102px;
+    --footer-height: 146px;
+}
+
+a {
+    color: inherit;
+}
+
+
+.main-page-wrapper {
+    background: url("./img/top-back.png") center top no-repeat,
+                url("./img/bottom-back.png") center bottom 146px no-repeat;
+    background-color: #17191C;
+}
+
+.background-screen {
+    margin: 0 auto ;
+    width: 1140px;
+}
+
+.header{
+    height: 102px;
+    position: relative;
+    margin-bottom: 112px;
+}
+
+.logo {
+    display: block;
+    position: absolute;
+}
+
+.logo--header {
+    top: 34px;
+    left: 0px;
+}
+
+.nav-menu {
+    position: absolute;
+}
+
+.nav-menu--header {
+    top: 40px;
+    left: 420px;
+}
+
+.nav-menu__link {
+    text-decoration: none;
+}
+
+.nav-menu__link:hover {
+    color: #8F00FF;
+    text-shadow:#00A3FF 1px 0 5px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+.nav-menu__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 62px;
+}
+
+.nav-menu__item:last-child {
+    margin-right: 0;
+}
+
+.contacts {
+    position: absolute;
+    text-align: right;
+}
+
+.contacts--header{
+    top: 27px;
+    right: 0px;
+    /* vertical-align: left; */
+}
+
+.contacts__phone {
+    font-size: 26px;
+    font-style: normal;
+    text-decoration: none;
+
+}
+
+.contacts__workhours {
+    font-style: normal;
+    font-size: 13px;
+    margin: -5px 0 0 0;
+}
+
+.contacts__workhours:hover {
+    text-decoration: underline;
+}
+
+article.quiz__reviewgames-container {
+    width: 637px;
+}
+
+.quiz__reviewgames-container-title {
+    line-height: 1.06; /* 64 / 60 */
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 0.22rem;
+}
+
+/* .quiz__reviewgames-container-description {
+    font-size: 21px;
+    margin-top: 21px;
+    margin-bottom: 0px;
+    font-weight: 400;
+} */
+
+
+.quiz__reviewgames-container-description{
+    font-size: 21px;
+    margin-top: 21px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    border-right: 2px solid rgba(255,255,255,.75);
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+        
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(24) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 10em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+
+
+button {
+    background-color: #8F00FF;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0;
+    border-width: 0;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.quiz__reviewgames-container-btn {
+    width: 168px;
+    height: 55px;
+    margin-top: 73px;
+}
+
+.quiz__reviewgames-container-btn:hover {
+    background: #741BBA;
+}
+
+.quiz__newsweek-card-title {
+    display: block;
+    margin-top: 188px;
+    letter-spacing: 0.118rem;
+}
+
+.quiz__newsweek-card-icon{
+    /* vertical-align: middle; */
+    margin-left: 4px;
+    vertical-align: bottom;
+}
+
+h1.quiz__newsweek-card-title-text,
+.quiz__lastgames-title-text{
+    
+    display: inline-block;
+    font-weight: bold;
+    font-size: 36px;
+    vertical-align: middle;
+}
+
+.quiz__newspreview {
+    display: block;
+    margin-top: 51px;
+}
+
+.quiz__newspreview-block {
+    display: inline-block;
+    width: 362px;
+    margin:0 22px 0 0;
+    border-radius: 5px ;
+    background-color: #fff;
+}
+
+.quiz__newspreview-block:last-child {
+    margin: 0px;
+}
+
+.quiz__newspreview-block-pic {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.quiz__newspreview-block-name {
+    font-size: 24px;
+    color: #000;
+    margin: 33px 0 0 0;
+    font-weight: bold;
+    letter-spacing: 0.08rem;
+    /* line-height: 1.4; */
+}
+
+.quiz__newspreview-block-info {
+    margin: 21px 0 0 0;
+}
+
+.quiz__newspreview-container {
+    display: block;
+    /* width: calc(362px - 22px);
+    margin: 20px 0px 0 22px; */
+    padding: 0 22px 26px 22px;
+    min-width: calc(362px - 22px - 22px);
+}
+
+.quiz__newspreview-block-game-timeicon,
+.quiz__newspreview-block-game-time,
+.quiz__newspreview-block-game-askicon,
+.quiz__newspreview-block-game-ask {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.quiz__newspreview-block-game-timeicon,
+.quiz__newspreview-block-game-askicon {
+    margin: 0 5px 0 5px;
+}
+
+.quiz__newspreview-block-game-timeicon:last-child {
+    margin: 0 5px 0 0px;
+}
+
+.quiz__newspreview-block-game-time,
+.quiz__newspreview-block-game-ask {
+    font-size: 16px;
+    color:#666666;
+    padding: 0 50px 0 0;
+}
+
+.quiz__newspreview-block-game-time:last-child ,
+.quiz__newspreview-block-game-ask:last-child {
+    padding: 0;
+}
+
+.quiz__newspreview-block-desc {
+    color: #000;
+    font-size: 14px;
+    margin: 27px 0 0 0;
+}
+
+.quiz__newspreview-block-btn {
+    width: 135px;
+    height: 55px;
+    margin: 24.5px 0 0 0
+}
+
+.quiz__newspreview-block-btn--new1, .quiz__newspreview-block-btn--new3 {
+    background: none;
+    border: 1px solid #8F00FF;
+    color: #8F00FF;
+}
+
+.quiz__newspreview-block-btn--new1:hover,
+.quiz__newspreview-block-btn--new2:hover,
+.quiz__newspreview-block-btn--new3:hover{
+    background: #8F00FF;
+    color: #FFF;
+}
+
+.quiz__lastgames-title {
+    display: block;
+    margin: 127px 0 0 0;
+    letter-spacing: 0.118rem;
+}
+
+
+.quiz__lastgames-card {
+    display: inline-block;
+    width: 557px;
+    vertical-align: top;
+    position: relative;
+    margin: 0 20px 0 0;
+}
+
+.quiz__lastgames-card:last-child {
+    margin: 0;
+}
+
+
+
+.quiz__lastgames-card-pic {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 50px 0 0 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.quiz__lastgames-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px 30px;
+    min-height: 120px;
+}
+
+.quiz__lastgames-card-date {
+    font-size: 14px;
+    margin: 0;
+}
+
+.quiz__lastgames-card-namequiz {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 13px 0 0 0;
+    letter-spacing: 0.08rem;
+}
+
+.quiz__lastgames-card-desc {
+    font-size: 16px;
+    margin: 4px 0 0 0;
+}
+
+.quiz__paginator {
+    text-align: center;
+    margin: 53px 0 0 0;
+}
+
+.quiz__paginator-list, .quiz__paginator-display {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.quiz__paginator-display {
+    margin: 0 25px 0 0;
+}
+
+.quiz__paginator-item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.quiz__paginator-link {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+.quiz__paginator--active .quiz__paginator-link {
+    background: #8F00FF;
+}
+
+.quiz__paginator-link:hover {
+    background: #8F00FF;
+}
+
+.quiz__about {
+    margin: 145px 0 0 0;
+}
+
+.quiz__about::before, .quiz__about-background{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.quiz__about::before{
+    content: "";
+    width: 489px;
+    height: 505px;
+    background: url(/img/about.png) center center / cover no-repeat;
+}
+
+.quiz__about-background {
+    background: linear-gradient(71.43deg, #8F00FF 0%, #148CFF 100%), #212121;
+    border-radius: 5px;
+    width: calc(785px - 81px - 202px );
+    min-height: calc(455px - 70px - 66px);
+    padding: 70px 202px 66px 81px;
+    margin-left: -140px;
+    margin-top: 97px;
+}
+
+
+.quiz__background-title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.quiz__background-text p {
+    margin: 37px 0 0 0;
+    line-height: 1.68;
+}
+
+
+
+
+button.quiz__background-btn {
+    margin: 41px 0 0 0;
+    width: 168px;
+    height: 55px;
+    background: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    letter-spacing: 0.118rem;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+button.quiz__background-btn:hover {
+    background: #741BBA;
+}
+
+
+.footer {
+    margin: 55px 0 0 0;
+    height: 146px;
+    position: relative;
+}
+
+.logo--footer {
+    top: 54px;
+    left: 0px;
+}
+
+.nav-menu--footer {
+    top: 57px;
+    left: 289px;
+}
+
+.contacts--footer{
+    top: 46px;
+    right: 0px;
+    vertical-align: left;
+}
+
+
+
+.contacts__telinfo {
+    font-size: 11px;
+    color: #9A9A9A;
+    font-style: normal;
+}
+
+.contacts__phone {
+    margin: 6.5px 0 0 0;
+}
+
+
+.social {
+    position: absolute;
+    top: 53px;
+    right: 264px;
+}
+
+.social__link {
+    display: block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+    background: center center no-repeat;
+}
+
+.social__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+.social__item:last-child {
+    margin-right: 0;
+}
+
+/* Telegram */
+.social__item--tg .social__link {
+    background: url(/img/telegram.png);
+}
+
+.social__item--tg .social__link:hover {
+    background: url(/img/telegram-hover.png);
+}
+
+/* VK */
+.social__item--vk .social__link {
+    background: url(/img/vk.png);
+}
+
+.social__item--vk .social__link:hover {
+    background: url(/img/vk-hover.png);
+}
+
+/* Facebook */
+.social__item--fb .social__link {
+    background: url(/img/f.png);
+}
+
+.social__item--fb .social__link:hover {
+    background: url(/img/f-hover.png);
+}
+
+/* Instagram */
+.social__item--in .social__link {
+    background: url(/img/in.png);
+}
+
+.social__item--in .social__link:hover {
+    background: url(/img/in-hover.png);
+}
+
+.container-footer {
+    border-top: 1px solid rgba(255,255,255,.035);
+}
+
+/* .quiz__newsweek-card-icon{
+    vertical-align: middle;
+    margin-left: 9px;
+}
+
+
+
+.footer .container-footer{
+    height: 146px;
+    position: relative;
+}
+
+.logo.footer {
+    bottom: 67px;
+    left: 0px;
+}
+
+.nav-menu.footer {
+    bottom: 67px;
+    left: 200px;
+}
+
+
+
+.social__item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.social__link {
+    margin-right: 10px;
+}
+
+.social__link:hover {
+    border-radius: 50%;
+    background:#FFFFFF;
+}
+
+.contacts.footer{
+    bottom: 57px;
+    right: 0;
+} */
