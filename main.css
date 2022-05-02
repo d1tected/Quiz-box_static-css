@@ -106,6 +106,7 @@ h1, h2, h3, h4, h5, h6 {
     font-style: normal;
     font-size: 13px;
     margin: -5px 0 0 0;
+    cursor: pointer;
 }
 
 .contacts__workhours:hover {
@@ -169,6 +170,7 @@ button {
     border-width: 0;
     color: #fff;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .quiz__reviewgames-container-btn {
@@ -207,7 +209,7 @@ h1.quiz__newsweek-card-title-text,
     margin-top: 51px;
 }
 
-.quiz__newspreview-block {
+.quiz__new-block {
     display: inline-block;
     width: 362px;
     margin:0 22px 0 0;
@@ -215,18 +217,18 @@ h1.quiz__newsweek-card-title-text,
     background-color: #fff;
 }
 
-.quiz__newspreview-block:last-child {
+.quiz__new-block:last-child {
     margin: 0px;
 }
 
-.quiz__newspreview-block-pic {
+.quiz__new-block-pic {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.quiz__newspreview-block-name {
+.quiz__new-block-name {
     font-size: 24px;
     color: #000;
     margin: 33px 0 0 0;
@@ -235,7 +237,7 @@ h1.quiz__newsweek-card-title-text,
     /* line-height: 1.4; */
 }
 
-.quiz__newspreview-block-info {
+.quiz__new-block-info {
     margin: 21px 0 0 0;
 }
 
@@ -247,56 +249,58 @@ h1.quiz__newsweek-card-title-text,
     min-width: calc(362px - 22px - 22px);
 }
 
-.quiz__newspreview-block-game-timeicon,
-.quiz__newspreview-block-game-time,
-.quiz__newspreview-block-game-askicon,
-.quiz__newspreview-block-game-ask {
+.quiz__new-block-game-timeicon,
+.quiz__new-block-game-time,
+.quiz__new-block-game-askicon,
+.quiz__new-block-game-ask {
     display: inline-block;
     vertical-align: middle;
 }
 
-.quiz__newspreview-block-game-timeicon,
-.quiz__newspreview-block-game-askicon {
+.quiz__new-block-game-timeicon,
+.quiz__new-block-game-askicon {
     margin: 0 5px 0 5px;
 }
 
-.quiz__newspreview-block-game-timeicon:last-child {
+.quiz__new-block-game-timeicon:last-child {
     margin: 0 5px 0 0px;
 }
 
-.quiz__newspreview-block-game-time,
-.quiz__newspreview-block-game-ask {
+.quiz__new-block-game-time,
+.quiz__new-block-game-ask {
     font-size: 16px;
     color:#666666;
     padding: 0 50px 0 0;
 }
 
-.quiz__newspreview-block-game-time:last-child ,
-.quiz__newspreview-block-game-ask:last-child {
+.quiz__new-block-game-time:last-child ,
+.quiz__new-block-game-ask:last-child {
     padding: 0;
 }
 
-.quiz__newspreview-block-desc {
+.quiz__new-block-desc {
     color: #000;
     font-size: 14px;
     margin: 27px 0 0 0;
 }
 
-.quiz__newspreview-block-btn {
+.quiz__new-block-btn {
     width: 135px;
     height: 55px;
     margin: 24.5px 0 0 0
 }
 
-.quiz__newspreview-block-btn--new1, .quiz__newspreview-block-btn--new3 {
+.quiz__new-block-btn--new1,
+.quiz__new-block-btn--new2,
+.quiz__new-block-btn--new3 {
     background: none;
     border: 1px solid #8F00FF;
     color: #8F00FF;
 }
 
-.quiz__newspreview-block-btn--new1:hover,
-.quiz__newspreview-block-btn--new2:hover,
-.quiz__newspreview-block-btn--new3:hover{
+.quiz__new-block-btn--new1:hover,
+.quiz__new-block-btn--new2:hover,
+.quiz__new-block-btn--new3:hover{
     background: #8F00FF;
     color: #FFF;
 }
