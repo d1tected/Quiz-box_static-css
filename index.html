@@ -3,190 +3,192 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=1200, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./main.css">
     <title>Quiz-box</title>
 </head>
 <body>
-    <div class="wrapper main-page-wrapper">
-        <div class="background-screen">
-            
-            <!-- Голова сайта -->
-            <header class="header">
-                <div class="container">
-                    <!-- Лого -->
-                    <a href="/" class="logo logo--header">
-                        <img src="./img/Quiz-box.png" alt="Логотип" class="logo__pic">
-                    </a>
-                    
-                    <!-- Меню горизонтальное -->
-                    <ul class="nav-menu nav-menu--header">
-                        <li class="nav-menu__item"><a href="#" class="nav-menu__link">Главная</a></li>
-                        <li class="nav-menu__item"><a href="#" class="nav-menu__link">Игры</a></li>
-                        <li class="nav-menu__item"><a href="#" class="nav-menu__link">Отзывы</a></li>
-                    </ul>
-                    <!-- Контакты -->
-                    <address class="contacts contacts--header">
-                        <a href="tel: + 788007003030" class="contacts__phone">8 800 700 30 30</a>
-                        <div class="contacts__workhours">График работы</div>
-                    </address>
-                </div> 
-            </header>
-            
-            <!-- Контент сайта -->
-            <main class="main-content">
+    <div class="bg-main">
+
+        <div class="wrapper main-page-wrapper">
+            <div class="wrapper__content">
                 
-                <!-- Аннотация -->
-                <section class="quiz__reviewgames">
-                    <div class="container">
-                        <article class="quiz__reviewgames-container">
-                            <h1 class="quiz__reviewgames-container-title">Интеллектуальный вечер для шумной компании</h1>
-                            <p class="quiz__reviewgames-container-description anim-typewriter">Игры на любой вкус</p>
-                            <button type="button" class="quiz__reviewgames-container-btn">Подробнее</button>
-                        </article>
-                    </div>
-                </section>
-
-                <!-- Новинки недели -->
-                <section class="quiz__newsweek-card">
-                    <div class="container">
-                        <div class="quiz__newsweek-card-title">
-                            <h1 class="quiz__newsweek-card-title-text">Новинки недели</h1>
-                            <img src="./img/new.png" alt="Иконка для новинок" class="quiz__newsweek-card-icon">
-                        </div>
-                    
-                        <div class="quiz__newspreview">
-
-                            <!-- Новинка 1 -->
-                            <div class="quiz__new-block">
-                                <img src="./img/music-quiz 1.png" alt="Прьевью квиза 1" class="quiz__new-block-pic">
-                                <div class="quiz__newspreview-container">
-                                    <h1 class="quiz__new-block-name">Музыкальная игра</h1>
-                                    <div class="quiz__new-block-info">
-                                        <img src="./img/time.png" alt="Иконка времени игры 1" class="quiz__new-block-game-timeicon">
-                                        <div class="quiz__new-block-game-time">90 минут</div>
-                                        <img src="./img/QA.png" alt="Иконка кол-во вопросов игры 1" class="quiz__new-block-game-askicon">
-                                        <div class="quiz__new-block-game-ask">70 вопросов</div>
-                                    </div>
-                                    <p class="quiz__new-block-desc">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
-                                    <button class="quiz__new-block-btn quiz__new-block-btn--new1">Смотреть</button>
-                                </div>     
-                            </div>
-
-                            <!-- Новинка 2 --> 
-                            <div class="quiz__new-block">
-                                <img src="./img/music-quiz 2.png" alt="Прьевью квиза 2" class="quiz__new-block-pic">
-                                <div class="quiz__newspreview-container">
-                                    <h1 class="quiz__new-block-name">Назад в 90-е</h1>
-                                    <div class="quiz__new-block-info">
-                                        <img src="./img/time.png" alt="Иконка времени игры 2" class="quiz__new-block-game-timeicon">
-                                        <div class="quiz__new-block-game-time">90 минут</div>
-                                        <img src="./img/QA.png" alt="Иконка кол-во вопросов игры 2" class="quiz__new-block-game-askicon">
-                                        <div class="quiz__new-block-game-ask">70 вопросов</div>
-                                    </div>    
-                                    <p class="quiz__new-block-desc">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
-                                    <button class="quiz__new-block-btn quiz__new-block-btn--new2">Смотреть</button>
-                                </div>                                
-                            </div>
-
-                            <!-- Новинка 3 -->
-                            <div class="quiz__new-block">
-                                <img src="./img/music-quiz 3.png" alt="Прьевью квиза 3" class="quiz__new-block-pic">
-                                    <div class="quiz__newspreview-container">
-                                    <h1 class="quiz__new-block-name">IT-викторина</h1>
-                                    <div class="quiz__new-block-info">
-                                        <img src="./img/time.png" alt="Иконка времени игры 3" class="quiz__new-block-game-timeicon">
-                                        <div class="quiz__new-block-game-time">90 минут</div>
-                                        <img src="./img/QA.png" alt="Иконка кол-во вопросов игры 3" class="quiz__new-block-game-askicon">
-                                        <div class="quiz__new-block-game-ask">70 вопросов</div>
-                                    </div>
-                                    <p class="quiz__new-block-desc">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
-                                    <button class="quiz__new-block-btn quiz__new-block-btn--new3">Смотреть</button>
-                                </div>                                
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Прошедшие игры -->
-                <section class="quiz__lastgames">
-                    <div class="quiz__lastgames-title">
-                        <div class="quiz__lastgames-title-text">Прошедшие игры</div>
-                    </div>
-                    <div class="quiz__lastgames-container">
-
-                        <!-- Прошедшая игра 1 -->
-                        <div class="quiz__lastgames-card">
-                            <img src="./img/last-game_1.png" alt="Фото с квиза 1" class="quiz__lastgames-card-pic">
-                            <div class="quiz__lastgames-content">
-                                <p class="quiz__lastgames-card-date">1 ноября</p>
-                                <h1 class="quiz__lastgames-card-namequiz">Новогодний квиз</h1>
-                                <p class="quiz__lastgames-card-desc">Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ!</p>
-                            </div>
-                        </div>
-
-                        <!-- Прошедшая игра 2 -->
-                        <div class="quiz__lastgames-card">
-                            <img src="./img/last-game_2.png" alt="Фото с квиза 2" class="quiz__lastgames-card-pic">
-                            <div class="quiz__lastgames-content">
-                                <p class="quiz__lastgames-card-date">8 марта</p>
-                                <h1 class="quiz__lastgames-card-namequiz">Весенняя игра</h1>               
-                                <p class="quiz__lastgames-card-desc">Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ!</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Пагинатор -->
-                    <div class="quiz__paginator">
-                        <div class="quiz__paginator-display">Страница 1 из 7</div>
-                        <ul class="quiz__paginator-list">
-                            <li class="quiz__paginator-item quiz__paginator--active"><a href="#" class="quiz__paginator-link">1</a></li>
-                            <li class="quiz__paginator-item"><a href="#" class="quiz__paginator-link">2</a></li>
-                            <li class="quiz__paginator-item"><a href="#" class="quiz__paginator-link">3</a></li>
-                            <li class="quiz__paginator-item"><a href="#" class="quiz__paginator-link">4</a></li>
-                            <li class="quiz__paginator-item"><a href="#" class="quiz__paginator-link">5</a></li>
-                            <li class="quiz__paginator-item"><a href="#" class="quiz__paginator-link">6</a></li>
-                            <li class="quiz__paginator-item"><a href="#" class="quiz__paginator-link">7</a></li>
+                <!-- Голова сайта -->
+                <header class="header header--page-main">
+                    <div class="container-header">
+                        <!-- Лого -->
+                        <a href="./index.html" class="logo logo--header">
+                            <img src="./img/Quiz-box.png" alt="Логотип" class="logo__pic">
+                        </a>
+                        
+                        <!-- Меню горизонтальное -->
+                        <ul class="nav-menu nav-menu--header">
+                            <li class="nav-menu__item"><a href="#" class="nav-menu__link">Главная</a></li>
+                            <li class="nav-menu__item"><a href="./games.html" class="nav-menu__link">Игры</a></li>
+                            <li class="nav-menu__item"><a href="#" class="nav-menu__link">Отзывы</a></li>
                         </ul>
-                    </div>
-                </section>
-
-                <!-- О нас -->
-                <section class="quiz__about">
-                    <!-- <div class="container-about"> -->
-                        <!-- <img src="#" alt="Фото о нас" class="quiz__about-photo"> -->
-                    <div class="quiz__about-background">
-                        <h1 class="quiz__background-title">О нас</h1>
-                        <div class="quiz__background-text">
-                            <p class="quiz__background-text-desc">
-                                Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях.
-                            </p>
+                        <!-- Контакты -->
+                        <address class="contacts contacts--header">
+                            <a href="tel: + 788007003030" class="contacts__phone">8 800 700 30 30</a>
+                            <div class="contacts__workhours contacts__workhours--dark-theme">График работы</div>
+                        </address>
+                    </div> 
+                </header>
+                
+                <!-- Контент сайта -->
+                <main class="main-content">
+                    
+                    <!-- Аннотация -->
+                    <section class="quiz__reviewgames">
+                        <div class="container container-article">
+                            <article class="quiz__reviewgames-container">
+                                <h1 class="quiz__reviewgames-container-title">Интеллектуальный вечер для шумной компании</h1>
+                                <p class="quiz__reviewgames-container-description anim-typewriter">Игры на любой вкус</p>
+                                <button type="button" class="quiz__reviewgames-container-btn">Подробнее</button>
+                            </article>
                         </div>
-                        <button class="quiz__background-btn">Подробнее</button>
-                    </div>
-                    <!-- </div> -->
-                </section>
-            </main>
-            
+                    </section>
+    
+                    <!-- Новинки недели -->
+                    <section class="quiz__newsweek-card">
+                        <div class="container">
+                            <div class="quiz__newsweek-card-title">
+                                <h1 class="quiz__newsweek-card-title-text">Новинки недели</h1>
+                                <img src="./img/new.svg" alt="Иконка для новинок" class="quiz__newsweek-card-icon">
+                            </div>
+                        
+                            <div class="quiz__newspreview">
+    
+                                <!-- Новинка 1 -->
+                                <div class="quiz__new-block">                                
+                                    <img src="./img/music-quiz 1.png" alt="Прьевью квиза 1" class="quiz__new-block-pic">
+                                    <div class="quiz__new-block-container">
+                                        <h1 class="quiz__new-block-name">Музыкальная игра</h1>
+                                        <div class="quiz__new-block-info">
+                                            <img src="./img/time.png" alt="Иконка времени игры 1" class="quiz__new-block-game-timeicon">
+                                            <div class="quiz__new-block-game-time">90 минут</div>
+                                            <img src="./img/QA.png" alt="Иконка кол-во вопросов игры 1" class="quiz__new-block-game-askicon">
+                                            <div class="quiz__new-block-game-ask">70 вопросов</div>
+                                        </div>
+                                        <p class="quiz__new-block-desc">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
+                                        <button class="quiz__new-block-btn quiz__new-block-btn--new1">Смотреть</button>
+                                    </div>     
+                                </div>
+    
+                                <!-- Новинка 2 --> 
+                                <div class="quiz__new-block">
+                                    <img src="./img/music-quiz 2.png" alt="Прьевью квиза 2" class="quiz__new-block-pic">
+                                    <div class="quiz__new-block-container">
+                                        <h1 class="quiz__new-block-name">Назад в 90-е</h1>
+                                        <div class="quiz__new-block-info">
+                                            <img src="./img/time.png" alt="Иконка времени игры 2" class="quiz__new-block-game-timeicon">
+                                            <div class="quiz__new-block-game-time">90 минут</div>
+                                            <img src="./img/QA.png" alt="Иконка кол-во вопросов игры 2" class="quiz__new-block-game-askicon">
+                                            <div class="quiz__new-block-game-ask">70 вопросов</div>
+                                        </div>    
+                                        <p class="quiz__new-block-desc">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
+                                        <button class="quiz__new-block-btn quiz__new-block-btn--new2">Смотреть</button>
+                                    </div>                                
+                                </div>
+    
+                                <!-- Новинка 3 -->
+                                <div class="quiz__new-block">
+                                    <img src="./img/music-quiz 3.png" alt="Прьевью квиза 3" class="quiz__new-block-pic">
+                                        <div class="quiz__new-block-container">
+                                        <h1 class="quiz__new-block-name">IT-викторина</h1>
+                                        <div class="quiz__new-block-info">
+                                            <img src="./img/time.png" alt="Иконка времени игры 3" class="quiz__new-block-game-timeicon">
+                                            <div class="quiz__new-block-game-time">90 минут</div>
+                                            <img src="./img/QA.png" alt="Иконка кол-во вопросов игры 3" class="quiz__new-block-game-askicon">
+                                            <div class="quiz__new-block-game-ask">70 вопросов</div>
+                                        </div>
+                                        <p class="quiz__new-block-desc">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
+                                        <button class="quiz__new-block-btn quiz__new-block-btn--new3">Смотреть</button>
+                                    </div>                                
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+    
+                    <!-- Прошедшие игры -->
+                    <section class="quiz__lastgames">
+                        <div class="quiz__lastgames-title">
+                            <div class="quiz__lastgames-title-text">Прошедшие игры</div>
+                        </div>
+                        <div class="quiz__lastgames-container">
+    
+                            <!-- Прошедшая игра 1 -->
+                            <div class="quiz__lastgames-card">
+                                <img src="./img/last-game_1.png" alt="Фото с квиза 1" class="quiz__lastgames-card-pic">
+                                <div class="quiz__lastgames-content">
+                                    <p class="quiz__lastgames-card-date">1 ноября</p>
+                                    <h1 class="quiz__lastgames-card-namequiz">Новогодний квиз</h1>
+                                    <p class="quiz__lastgames-card-desc">Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ!</p>
+                                </div>
+                            </div>
+    
+                            <!-- Прошедшая игра 2 -->
+                            <div class="quiz__lastgames-card">
+                                <img src="./img/last-game_2.png" alt="Фото с квиза 2" class="quiz__lastgames-card-pic">
+                                <div class="quiz__lastgames-content">
+                                    <p class="quiz__lastgames-card-date">8 марта</p>
+                                    <h1 class="quiz__lastgames-card-namequiz">Весенняя игра</h1>               
+                                    <p class="quiz__lastgames-card-desc">Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ!</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- Пагинатор -->
+                        <div class="paginator">
+                            <div class="paginator-display">Страница 1 из 7</div>
+                            <ul class="paginator-list">
+                                <li class="paginator-item paginator--active"><a href="#" class="paginator-link">1</a></li>
+                                <li class="paginator-item"><a href="#" class="paginator-link">2</a></li>
+                                <li class="paginator-item"><a href="#" class="paginator-link">3</a></li>
+                                <li class="paginator-item"><a href="#" class="paginator-link">4</a></li>
+                                <li class="paginator-item"><a href="#" class="paginator-link">5</a></li>
+                                <li class="paginator-item"><a href="#" class="paginator-link">6</a></li>
+                                <li class="paginator-item"><a href="#" class="paginator-link">7</a></li>
+                            </ul>
+                        </div>
+                    </section>
+    
+                    <!-- О нас -->
+                    <section class="quiz__about">
+                        <!-- <div class="container-about"> -->
+                            <!-- <img src="#" alt="Фото о нас" class="quiz__about-photo"> -->
+                        <div class="quiz__about-bg">
+                            <h1 class="quiz__about-bg-title">О нас</h1>
+                            <div class="quiz__about-bg-text">
+                                <p class="quiz__about-bg-text-desc">
+                                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях.
+                                </p>
+                            </div>
+                            <button class="quiz__about-bg-btn">Подробнее</button>
+                        </div>
+                        <!-- </div> -->
+                    </section>
+                </main>
+            </div>    
             <!-- Подвал сайта -->
-            <footer class="footer">
-                <div class="container-footer container-footer-content">
+            <footer class="footer footer--dark-theme">
+                <div class="container-footer container-footer--dark-theme">
                     
                     <!-- Лого  -->
                     <a href="/" class="logo logo--footer">
                         <img src="./img/Quiz-box.png" alt="Логотип" class="logo__pic">
                     </a>
-
+    
                     <!-- Навигационное меню -->
                     <ul class="nav-menu nav-menu--footer">
-                        <li class="nav-menu__item"><a href="#" class="nav-menu__link">Главная</a></li>
-                        <li class="nav-menu__item"><a href="#" class="nav-menu__link">Игры</a></li>
+                        <li class="nav-menu__item"><a href="./index.html" class="nav-menu__link">Главная</a></li>
+                        <li class="nav-menu__item"><a href="./games.html" class="nav-menu__link">Игры</a></li>
                         <li class="nav-menu__item"><a href="#" class="nav-menu__link">Отзывы</a></li>
                     </ul>
-
+    
                     <!-- Социальные сети -->
                     <ul class="social">
                         <li class="social__item social__item--tg">
@@ -202,10 +204,10 @@
                             <a href="#" class="social__link"></a>
                         </li>
                     </ul>
-
+    
                     <!-- Контакты -->
                     <address class="contacts contacts--footer">
-                        <div class="contacts__telinfo">Бесплатный звонок по России</div>
+                        <div class="contacts__telinfo contacts__telinfo--dark-theme">Бесплатный звонок по России</div>
                         <a href="tel: + 788007003030" class="contacts__phone">8 800 700 30 30</a>
                     </address>
                 </div>
