@@ -1,0 +1,164 @@
+.quiz__newsweek-card {
+    display:flex;
+    position: relative;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.quiz__newsweek-card-title {
+    display: flex;
+    width: 100%;
+    margin: 0 0 51px 0;
+}
+
+.quiz__newsweek-card-icon{
+    margin-left: 9px;
+}
+
+h1.quiz__newsweek-card-title-text,
+.quiz__lastgames-title-text{
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.quiz__newspreview {
+    display: flex;
+    max-width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+
+.quiz__new-block {
+    flex-wrap: wrap;
+    margin:0 2% 0 0;
+    border-radius: 5px ;
+    width: 100%;
+}
+
+.quiz__new-block:last-child {
+    margin:0; 
+}
+
+.quiz__new-block-pic {
+    display: flex;
+    /* margin: 0 -22px 0 -22px; */
+    align-self: flex-start;
+    object-fit: cover;
+    width: 100%;
+}
+
+/* 
+.quiz__new-block:last-child {
+    margin: 0px;
+}
+
+*/
+/* .quiz__new-block-pic {
+    
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
+.quiz__new-block-container {
+    display: flex;
+    width: 100%;
+    flex: 1;
+    background-color: #fff;
+    flex-direction:column;
+    padding: 0 22px 0 22px;
+    box-sizing: border-box;
+    border-radius: 0 0 5px 5px;
+}
+
+.quiz__new-block-name {
+    font-size: 24px;
+    color: #000;
+    margin: 10% 0 0 0;
+    font-weight: bold;
+    width: 100%;
+}
+
+
+
+.quiz__new-block-info {
+    display: flex;
+    align-self: flex-start;
+    justify-content: flex-start;
+    margin: 7% 0 0 0;
+    width: 100%;
+    height: 100%;
+
+} 
+
+
+
+ .quiz__new-block-game-timeicon,
+.quiz__new-block-game-time,
+.quiz__new-block-game-askicon,
+.quiz__new-block-game-ask {
+    display: flex;
+    align-self: center;
+    align-items:center;
+    height: 100%;
+}
+
+.quiz__new-block-game-timeicon,
+.quiz__new-block-game-askicon {
+    margin: 0 2.5% 0 0px;
+}
+
+/* .quiz__new-block-game-timeicon:last-child {
+    margin: 0 5px 0 0px;
+} */
+
+.quiz__new-block-game-time,
+.quiz__new-block-game-ask {
+    color:#666666;
+    padding: 0 20% 0 0;
+
+    
+    
+}
+
+.quiz__new-block-game-time:last-child ,
+.quiz__new-block-game-ask:last-child {
+    padding: 0;
+}
+
+.quiz__new-block-desc {
+    display: flex;
+    float: 1;
+    flex-direction: column;
+    color: #000;
+    font-size: 14px;
+    margin: 10% 0 0 0;
+} 
+
+
+.quiz__new-block-btn {
+    width: 43%;
+    height: 4em;
+    margin: 5% 0 8% 0
+    
+}
+
+.quiz__new-block-btn--new1,
+.quiz__new-block-btn--new2,
+.quiz__new-block-btn--new3 {
+    background: none;
+    border: 1px solid #8F00FF;
+    color: #8F00FF;
+}
+
+.quiz__new-block-btn--new1:hover,
+.quiz__new-block-btn--new2:hover,
+.quiz__new-block-btn--new3:hover{
+    background: #8F00FF;
+    color: #FFF;
+} 

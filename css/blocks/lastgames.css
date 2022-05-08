@@ -1,0 +1,64 @@
+.quiz__lastgames {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.quiz__lastgames-title {
+    margin: 127px 0 0 0;
+    /* letter-spacing: 0.118rem; */
+}
+
+.quiz__lastgames-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.quiz__lastgames-card {
+    display: inline-flex;
+    margin:0 2% 0 0;
+    position: relative;
+    flex: 1;
+}
+
+.quiz__lastgames-card:last-child {
+    margin: 0;
+}
+
+.quiz__lastgames-card-pic {
+    display: flex;
+    width: 100%;
+    object-fit: cover;
+    margin: 50px 0 0 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.quiz__lastgames-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px 30px;
+    min-height: 120px;
+}
+
+.quiz__lastgames-card-date {
+    font-size: 14px;
+    margin: 0;
+}
+
+.quiz__lastgames-card-namequiz {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 13px 0 0 0;
+    /* letter-spacing: 0.08rem; */
+}
+
+.quiz__lastgames-card-desc {
+    font-size: 16px;
+    margin: 4px 0 0 0;
+}

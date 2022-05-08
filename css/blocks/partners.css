@@ -1,0 +1,52 @@
+/* Партнёры */
+.inner-section{
+    background: #FFF;
+    padding: 74px 0 82px 0;
+    display: flex;
+}
+
+
+.inner-section--bg--grey {
+    background: #F4F5F5;
+
+}
+
+.is-container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.inner-section__title {
+    color:#1A1B1E;
+    font-weight: 700;
+    font-size: 48px;
+    margin: 0 0 50px 0;
+}
+
+.partners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.partners__link {
+    text-decoration: none;
+    display: flex;
+    width: 250px;
+    height: 125px;
+    align-items:center;
+    justify-content:center;
+    filter: grayscale(100%);
+}
+
+.partners__link:hover {
+    filter: grayscale(0);
+}
+
+.partners__item {
+    margin-left: 45px;
+}
+
+.partners__item:nth-child(4n + 1) {
+    margin-left: 0;
+} 

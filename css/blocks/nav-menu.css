@@ -1,0 +1,40 @@
+
+.nav-menu {
+    display: inline-flex;
+    position: relative;
+    height: 100%;
+}
+
+.nav-menu--header {
+    /* justify-content: center; */
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-menu__link {
+    text-decoration: none;
+}
+
+.nav-menu__link:hover {
+    color: #8F00FF;
+    text-shadow:#00A3FF 1px 0 5px;
+
+}
+
+.nav-menu__item {
+    /* display: inline-flex; */
+    /* vertical-align: middle; */
+    margin-right: 67px;
+}
+
+.nav-menu__item:last-child {
+    margin-right: 0;
+}
+
+.nav-menu--footer {
+
+    align-items: center;
+    height: 100%;
+    /* margin: 0 0 0 132px; */
+}
