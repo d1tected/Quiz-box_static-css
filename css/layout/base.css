@@ -1,0 +1,74 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 1.42;
+    background: #17191C ;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    --header-height: 102px;
+    --footer-height: 146px;
+}
+
+html, body {
+    height: 100%;
+}
+
+a {
+    color: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+}
+
+ul li {
+    list-style: none;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+button {
+    background-color: #8F00FF;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0;
+    border-width: 0;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: hidden;
+    width: 1140px;
+    margin: 0 auto ;
+} 
+
+
+/* ЗАМЕНИТЬ КОНТЕЙНЕР ДЛЯ ПРИЖАТИЯ ФУТЕРА */
+.wrapper__content {
+    flex: 1;
+}
+
