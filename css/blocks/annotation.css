@@ -1,0 +1,72 @@
+
+/* .quiz__reviewgames {
+    
+} */
+
+.container-article {
+    display: flex;
+    min-height: 672px;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+article.quiz__reviewgames-container {
+    display: flex;
+    width: 58%;
+    flex-direction: column;
+    
+
+}
+
+.quiz__reviewgames-container-title {
+    display: flex;
+    position: relative;
+    line-height: 1.06; 
+    font-size: 60px;
+    font-weight: 700;
+
+    margin: 0 0 23px;
+    box-sizing:border-box;
+}
+
+
+
+.quiz__reviewgames-container-description{
+    font-size: 21px;
+    margin: 0 0 73px 5px;
+    font-weight: 400;
+    border-right: 2px solid rgba(255,255,255,.75);
+
+    white-space: nowrap;
+    overflow: hidden;
+        
+} 
+
+/* Animation for title */
+.anim-typewriter{
+  animation: typewriter 2s steps(24) 1s 1 normal both,
+             blinkTextCursor 1000ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 10em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+
+
+
+
+.quiz__reviewgames-container-btn {
+    width: 168px;
+    height: 55px;
+    /* margin: 0 0 192px 0; */
+}
+
+.quiz__reviewgames-container-btn:hover {
+    background: #741BBA;
+}

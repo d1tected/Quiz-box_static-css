@@ -1,0 +1,19 @@
+.bg-main {
+    min-height: 100%;
+    display: flex;
+    background: url("../../img/top-back.png") center top no-repeat,
+    url("../../img/bottom-back.png") center bottom 146px no-repeat;
+    background-color: #17191C;
+    justify-content: center;
+    min-width: 1200px;
+}
+
+.bg-games {
+    min-height: 100%;
+    display: flex;
+    background: url(../../img/games/p_games-header.png) top no-repeat;
+    background-color: #F2F2F2;
+    width: 100%;
+    flex-direction: column;
+    min-width: 1200px;
+}
