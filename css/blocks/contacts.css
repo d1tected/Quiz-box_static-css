@@ -1,0 +1,60 @@
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    
+}
+
+.contacts--header{
+    align-items:center;
+
+}
+
+.contacts__phone {
+    display: flex;
+    font-size: 26px;
+    font-style: normal;
+    text-decoration: none;
+    align-items:center;
+    position: relative;
+}
+
+
+.contacts__workhours {
+    display: flex;
+    position: relative;
+    margin: -5px 0 0 0;
+    font-style: normal;
+    font-size: 13px;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+
+
+.contacts__workhours:hover {
+    text-decoration: underline;
+}
+
+.contacts--footer{
+    margin: auto 0;
+}
+
+
+.contacts__telinfo {
+    display: flex;
+    justify-content:flex-end;
+    font-size: 11px;
+    color: #9A9A9A;
+    font-style: normal;
+}
+
+
+.contacts__telinfo--dark-theme {
+    margin: 0 0 2px 0;
+}
+
+.contacts__telinfo--light-theme {
+    margin: 0 0 -7px 0;
+}
