@@ -20,7 +20,7 @@ h1.page-title {
 
 
 
-.service:hover .btn{
+.btn:hover {
 
     background: none;
     border: 1px solid #8F00FF;
