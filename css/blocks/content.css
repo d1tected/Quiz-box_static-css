@@ -1,0 +1,58 @@
+h1.page-title {
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.page-content {
+    color:#303030;
+    padding: 98px 0;
+}
+
+.service {
+    display: flex;
+    /* padding: 0 0; */
+    margin: 0 0 50px 0;
+}
+
+.service:last-child {
+    margin: 0 0 65px 0;
+}
+
+
+
+.service:hover .btn{
+
+    background: none;
+    border: 1px solid #8F00FF;
+    color: #8F00FF;
+}
+
+.service__img {
+    width: 41%;
+    margin: 0 4% 0 0;
+}
+
+
+
+.service__content {
+    flex:1;
+    padding: 12px 0;
+
+}
+
+.service__title {
+    color:#000;
+    font-weight:700;
+    font-size: 36px;
+    margin-bottom:28.5px;
+}
+
+.service__desc {
+    margin-bottom:35px;
+    line-height: 27px;
+}
+
+.btn {
+    width: 168px;
+    height: 55px;
+}

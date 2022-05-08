@@ -1,0 +1,36 @@
+.footer {
+    display: flex;
+    position: relative;
+}
+
+.footer--dark-theme {
+    height: 150px;
+    margin: 55px 0 0 0;
+}
+
+.container-footer--light-theme {
+    height: 154px;
+}
+
+
+
+.footer--light-theme {
+    /* height: 132px; */
+    width: 1140px;
+    margin: 0 auto;
+    
+}
+
+.container-footer {
+    display:flex;
+    width: 100%;
+}
+
+.container-footer--dark-theme{
+    border-top: 1px solid rgba(255,255,255,.035);
+}
+/* .footer--light-theme {
+    background:#17191C;
+    height: 150px;
+
+} */
