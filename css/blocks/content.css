@@ -18,13 +18,15 @@ h1.page-title {
     margin: 0 0 65px 0;
 }
 
-
-
-.btn:hover {
-
+.btn {
     background: none;
     border: 1px solid #8F00FF;
     color: #8F00FF;
+}
+
+.btn:hover {
+    background: #8F00FF;
+    color: #FFF;
 }
 
 .service__img {
