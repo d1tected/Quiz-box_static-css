@@ -19,8 +19,8 @@
 .quiz__about-bg {
     background: linear-gradient(71.43deg, #8F00FF 0%, #148CFF 100%), #212121;
     border-radius: 5px;
-    max-width: calc(785px - 81px - 202px );
-    min-height: calc(455px - 70px - 66px);
+    max-width: 785px;
+    min-height: 455px;
     padding: 70px 202px 66px 81px;
     margin-left: -12%;
     margin-top: 8.4%;
