@@ -1,6 +1,5 @@
 /* ДОПОЛНИТЕЛЬНЫЕ СТИЛИ */
 @import url(./css/layout/normalize.css);
-@import url(./addition.css);
 
 /* БЛОКИ */
 @import url(./css/blocks/content.css);
