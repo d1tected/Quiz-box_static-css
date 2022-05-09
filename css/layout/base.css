@@ -10,6 +10,10 @@ body {
     --footer-height: 146px;
 }
 
+* {
+    box-sizing: border-box
+}
+
 html, body {
     height: 100%;
 }
@@ -71,4 +75,3 @@ button {
 .wrapper__content {
     flex: 1;
 }
-
