@@ -1,0 +1,67 @@
+.welcome,.welcome__wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+} 
+
+.welcome__title-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+
+.welcome__title-logo {
+    animation: welcome__title-logo .9s cubic-bezier(.14,.75,.25,.88) forwards;
+}
+
+
+
+@keyframes welcome__title-logo {
+	0% {transform: translate(-50%, -80%);
+        animation: cubic-bezier(.1,.71,.51,1.45);}
+
+    20% {transform: translate(-50%, -50%)}
+
+    35% {transform: translate(-50%, -74%);
+         animation: cubic-bezier(.1,.71,.51,1.45);}
+
+    50% {opacity: .5; transform: translate(-50%, -50%)}
+    
+    80% {transform: translate(-50%, -62%);
+         animation: cubic-bezier(.1,.71,.51,1.45);}
+        
+	100% {opacity: 1; transform: translate(-50%, -50%);}
+}
+
+.welcome__logo {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 98px;
+    background: linear-gradient(87.62deg, #8F00FF -2.44%, #00A3FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: 0 0 6px 0;
+}
+
+.welcome__btn {
+    height: 55px;
+    width: 168px;
+}
+
+.welcome__btn:hover {
+    background: #fff;
+    border: 2px solid #8F00FF;
+    color: #8F00FF;
+}
+
+
+.welcome__btn>a {
+    text-decoration: none;
+}
