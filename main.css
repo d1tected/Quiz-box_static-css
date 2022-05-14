@@ -8,7 +8,6 @@
 @import url(./css/blocks/breadcrumbs.css);
 @import url(./css/blocks/backgrounds.css);
 @import url(./css/blocks/about.css);
-@import url(./css/blocks/button.css);
 @import url(./css/blocks/contacts.css);
 @import url(./css/blocks/content.css);
 @import url(./css/blocks/footer.css);
@@ -20,8 +19,12 @@
 @import url(./css/blocks/pagination.css);
 @import url(./css/blocks/socials.css);
 @import url(./css/blocks/annotation.css);
+@import url(./css/blocks/welcome-page.css);
+@import url(./css/blocks/reviews-page.css);
 
 /* ПЛАНИРОВКА */
 @import url(./css/layout/base.css);
-@import url(./css/layout/fonts.css);
+
+
+
 
