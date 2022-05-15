@@ -37,7 +37,7 @@
 }
 
 .review__user::after {
-    content:url(./img/reviews/ico-vk-review.png);
+    content:url(../../img/reviews/ico-vk-review.png);
     height: 30px;
     margin: 0 0 0 7px;
 }
@@ -112,7 +112,7 @@ time.review__date {
 }
 
 .separator {
-    background:#17191C url(./img/reviews/gameforyou.png) right 10% bottom no-repeat;
+    background:#17191C url(../../img/reviews/gameforyou.png) right 10% bottom no-repeat;
     display: flex;
     flex-direction: column;
     min-height: 363px;
